@@ -1,0 +1,92 @@
+{
+  "audit_date": "2026-11-11",
+  "total_documents": 8,
+  "approved_count": 2,
+  "flagged_count": 6,
+  "results": [
+    {
+      "document_ref": "DOC-2026-0101",
+      "invoice_no": "INV-2026-101",
+      "vendor": "Acme Supplies Ltd",
+      "amount_usd": 12500.0,
+      "decision": "APPROVED",
+      "reason_codes": [],
+      "severity": null
+    },
+    {
+      "document_ref": "DOC-2026-0102",
+      "invoice_no": "INV-2026-102",
+      "vendor": "Bluewave Logistics",
+      "amount_usd": 7200.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "DUPLICATE_INVOICE"
+      ],
+      "severity": "medium"
+    },
+    {
+      "document_ref": "DOC-2026-0102B",
+      "invoice_no": "INV-2026-102",
+      "vendor": "Bluewave Logistics",
+      "amount_usd": 7200.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "DUPLICATE_INVOICE"
+      ],
+      "severity": "medium"
+    },
+    {
+      "document_ref": "DOC-2026-0103",
+      "invoice_no": "INV-2026-103",
+      "vendor": "Cedar Analytics",
+      "amount_usd": 18900.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "MISSING_PO"
+      ],
+      "severity": "high"
+    },
+    {
+      "document_ref": "DOC-2026-0104",
+      "invoice_no": "INV-2026-104",
+      "vendor": "Delta Printworks",
+      "amount_usd": 4300.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "SUSPENDED_VENDOR"
+      ],
+      "severity": "high"
+    },
+    {
+      "document_ref": "DOC-2026-0105",
+      "invoice_no": "INV-2026-105",
+      "vendor": "Evergreen Consulting",
+      "amount_usd": 9800.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "UNREGISTERED_VENDOR"
+      ],
+      "severity": "high"
+    },
+    {
+      "document_ref": "DOC-2026-0106",
+      "invoice_no": "INV-2026-106",
+      "vendor": "Acme Supplies Ltd",
+      "amount_usd": 31500.0,
+      "decision": "FLAGGED",
+      "reason_codes": [
+        "INSUFFICIENT_APPROVAL"
+      ],
+      "severity": "medium"
+    },
+    {
+      "document_ref": "DOC-2026-0108",
+      "invoice_no": "INV-2026-108",
+      "vendor": "Pinnacle Hardware",
+      "amount_usd": 15000.0,
+      "decision": "APPROVED",
+      "reason_codes": [],
+      "severity": null
+    }
+  ]
+}
