@@ -1,0 +1,7 @@
+vendor_name,status,risk_tier,contract_end_date
+Acme Supplies Ltd,ACTIVE,LOW,2027-06-30
+Bluewave Logistics,ACTIVE,LOW,2026-12-31
+Cedar Analytics,ACTIVE,MEDIUM,2027-03-31
+Delta Printworks,SUSPENDED,HIGH,2026-09-30
+Pinnacle Hardware,ACTIVE,LOW,2027-01-31
+Meridian Facilities,ACTIVE,MEDIUM,2027-05-15
